@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="lib" path="jgoodies-common-1.8.0.jar" sourcepath="jgoodies-common-1.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/PN_UTE5.MCH_PN1/pi4j-1.1/lib/junit.jar" sourcepath="C:/Users/PN_UTE5.MCH_PN1/.sourceattacher/junit-4.11-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="libreria/lib/junit.jar" sourcepath="C:/Users/PN_UTE5.MCH_PN1/.sourceattacher/junit-4.11-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/PN_UTE5.MCH_PN1/Documents/lib_example.jar" sourcepath="toexport"/>
+	<classpathentry kind="lib" path="libreria/lib/pi4j-gpio-extension.jar" sourcepath="libreria/lib/pi4j-gpio-extension-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/PN_UTE5.MCH_PN1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/QVENEU21/pi4j-gpio-extension-javadoc%5B1%5D.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libreria/lib/pi4j-core.jar" sourcepath="libreria/lib/pi4j-core-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/PN_UTE5.MCH_PN1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/ZRI3N0YA/pi4j-core-javadoc%5B1%5D.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libreria/lib/pi4j-device.jar" sourcepath="libreria/lib/pi4j-device-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/PN_UTE5.MCH_PN1/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/QVENEU21/pi4j-device-javadoc%5B1%5D.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libreria/lib/pi4j-example.jar" sourcepath="libreria/lib/pi4j-example-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/jSimpleClient2/libreria/lib/pi4j-example-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

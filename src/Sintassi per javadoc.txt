@@ -1,0 +1,27 @@
+Come scrivere i commenti:
+
+Commenti su piu' linee:
+
+/**
+ * This is the typical format of a simple documentation comment
+ * that spans two lines.
+ */
+
+Commenti su una linea sola:
+   /** This comment takes up only one line. */
+ *******************************************************
+ I commenti vanno messi:
+
+    quelli relativi a una classe o un'interfaccia, immediatamente prima dell'inizio della dichiarazione della classe o interfaccia (cioe' subito prima delle parole chiave "class..." o "interface...")
+    quelli relativi a un metodo, immediatamente prima della dichiarazione del metodo
+    quelli relativi a un attributo, immediatamente prima della dichiarazione della variabile
+    e non dichiarare due variabili sulla stessa riga (es. non scrivere "int x, y;" ma "int x;" e "int y;" ciascuna preceduta dal suo commento) 
+
+Nei commenti posso scrivere:
+
+    testo
+    testo con tag (marcature) del linguaggio HTML, ad esempio per produrre scritte in grassetto (<B>importante</B>) o per richiamare altre pagine web (<A HREF="http://www.disi.unige.it/">pagina del DISI</A.>)
+    riferimenti incrociati ad altre parti della documentazione di questa classe o di un'altra (preceduti dalla parola chiave "@see")
+    per i metodi, spiegazione a parte dei valori dei parametri (parola chiave "@param") e del risultato (parola chiave "@value") 
+
+Nota: Tutti i commenti, dovunque scritti, che non rispettano la sintassi javadoc vengono ignorati, ma possono ugualmente essere utili per chi legge il codice. 
